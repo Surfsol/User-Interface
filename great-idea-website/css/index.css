@@ -163,54 +163,87 @@ nav a{
 	padding: 10px;
 	margin-right:5px; 
 	position: absolute;
+	margin: 0 auto;
 }
 
 header{
 	width: 1000px;
-	top: 50px;
+	height: 450;
+	top: 20px;
 	position:absolute;
 	size:20px;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
 }
 
-section .top{
-	width: 1000px;
-	top: 400px;
+.innovation{
+	width:40%;
+	position: absolute;
+	display:inline-block; 
 	position: absolute;
 }
 
-section .middle-img{
+.globe{
+	width:40%;
+	position: absolute;
+	display:inline-block; 
+	position: absolute;
+
+}
+
+.top{
 	width: 1000px;
-	top: 600px;
+	top: 500px;
+	margin: 0 auto;
 	position: absolute;
 }
 
-section .bottom{
+.middle-img{
 	width: 1000px;
-	top: 820px;
+	top: 750px;
+	margin: 0 auto;
 	position: absolute;
 }
 
-section .contact{
+.bottom{
 	width: 1000px;
-	top: 850px;
+	top: 1000px;
+	position: absolute;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+.contact{
+	width: 1000px;
+	top: 1200px;
 	position: relative;
+	margin: 0 auto;
 }
 
 footer {
 	width: 1000px;
-	top: 900px;
+	top: 1250px;
 	position: relative;
+	margin: 0 auto;
+}
+
 }
 .box-p1{
-	width: 49%;
+	width:40%;
+	position: absolute;
 	display:inline-block; 
 	box-sizing: border-box;
+	left:0; 
+	color: red;
 }
 
 .box-p2{
-	width:49%;
+	width:40%;
+	position: absolute;
 	display:inline-block; 
 	box-sizing: border-box;
+	right: 0;
+	color: red;
 	
 }
 
@@ -233,5 +266,9 @@ footer {
 	box-sizing: border-box;
 }
 address{
-	margin: 10%;
+	
+}
+footer{
+	margin:0 auto;
+	left:10px;
 }
